@@ -38,7 +38,6 @@ public class MessageSender {
         TextMessage message = session
                 .createTextMessage("Hello !!! Welcome to the world of ActiveMQ. poxos");
 
-
         // Here we are sending our message!
         producer.send(message);
          
