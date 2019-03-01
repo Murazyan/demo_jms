@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JmsMessengerSettings">
+    <option name="servers">
+      <server id="a6d84cb3-fbfc-466f-9de1-88e3e827623b">
+        <ServerDto>
+          <option name="connectionType" value="TCP" />
+          <option name="host" value="localhost" />
+          <option name="id" value="a6d84cb3-fbfc-466f-9de1-88e3e827623b" />
+          <option name="login" value="admin" />
+          <option name="name" value="localhost:61616" />
+          <option name="password" value="admin" />
+          <option name="port" value="61616" />
+          <option name="sslConfiguration">
+            <SSLConfiguration>
+              <option name="keystore" value="" />
+              <option name="keystorePassword" value="" />
+              <option name="truststore" value="" />
+              <option name="truststorePassword" value="" />
+            </SSLConfiguration>
+          </option>
+          <option name="type" value="ACTIVE_MQ" />
+          <option name="virtualHost" value="/" />
+          <option name="zookeeperConfiguration">
+            <ZookeeperConfiguration>
+              <option name="clientId" value="jms-messenger" />
+              <option name="zookeeperHost" value="localhost" />
+              <option name="zookeeperPort" value="2181" />
+            </ZookeeperConfiguration>
+          </option>
+        </ServerDto>
+      </server>
+    </option>
+  </component>
+</project>
